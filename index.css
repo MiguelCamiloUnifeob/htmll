@@ -63,7 +63,7 @@ footer {
   height: auto;
   display: none;}
 
-@media (max-width: 761px) {
+@media (max-width: 768px) {
   .imgInicio {
     display: none;
   }
@@ -72,5 +72,8 @@ footer {
     display: block;
     max-width: 100%;
     height: auto;
+  }
+  footer{
+    padding: 60px;
   }
 }
