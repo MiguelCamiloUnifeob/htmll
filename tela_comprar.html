@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tela de Pagamento</title>
+  <link rel="stylesheet" href="tela_comprar.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h2>Pagamento</h2>
+    <img src="vetor-de-gradiente-de-logotipo-colorido-de-passaro_343694-1365.avif" alt="logo" class="img">
+
+    <form class="form_pagamento">
+      <label for="nome">Nome no cartão</label>
+      <input type="text" id="nome" placeholder="Seu nome completo" required>
+
+      <label for="numero-cartao">Número do cartão</label>
+      <input type="text" id="numero-cartao" placeholder="0000 0000 0000 0000" required maxlength="19" />
+
+      <div class="linha">
+        <div>
+          <label for="validade">Validade</label>
+          <input type="text" id="validade" placeholder="MM/AA" required maxlength="5" />
+        </div>
+
+        <div>
+          <label for="cvv">CVV</label>
+          <input type="text" id="cvv" placeholder="123" required maxlength="3" />
+        </div>
+      </div>
+
+      <button type="submit">Pagar Agora</button>
+    </form>
+  </div>
+
+  <script src="tela_comprar.js"></script>
+</body>
+
+</html>
