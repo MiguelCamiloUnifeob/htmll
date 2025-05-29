@@ -28,6 +28,7 @@ nav a {
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .produtos {
@@ -66,7 +67,6 @@ nav a {
 
 .produto a {
     background-color: #4CAF50;
-    /* Verde */
     color: white;
     padding: 10px 20px;
     border: none;
@@ -83,13 +83,11 @@ nav a {
 }
 
 footer {
-    background-color: #222;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    font-size: 20px;
-    margin-top: 20px;
-    height: 152px;
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
 
 }
 
