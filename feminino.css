@@ -9,11 +9,11 @@ body {
 }
 
 header {
-  background-color: #1a1818;
-  color: #fff;
-  padding: 0.5px;
-  text-align: center;
-  font-family: TrueType;
+    background-color: #1a1818;
+    color: #fff;
+    padding: 0.5px;
+    text-align: center;
+    font-family: TrueType;
 }
 
 nav {
@@ -49,7 +49,7 @@ nav a {
 }
 
 .produto img {
-    width:100%;
+    width: 100%;
     border-radius: 8px;
     height: 300px;
 }
@@ -82,9 +82,15 @@ nav a {
     background-color: #45a049;
 }
 
+
 footer {
-  
-  
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 50px;
+
 
 }
 
